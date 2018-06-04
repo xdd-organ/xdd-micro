@@ -1,0 +1,14 @@
+server:
+  port: 1111
+
+spring:
+  application:
+    name: xdd-consumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1110/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2

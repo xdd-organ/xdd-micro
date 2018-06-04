@@ -13,6 +13,7 @@
         <module>xdd-micro-eureka</module>
         <module>xdd-micro-consumer</module>
         <module>xdd-micro-producer</module>
+        <module>xdd-micro-zuul</module>
     </modules>
 
 

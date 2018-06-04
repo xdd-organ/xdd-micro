@@ -1,0 +1,20 @@
+server:
+  port: 1113
+
+spring:
+  application:
+    name: xdd-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1110/eureka/
+
+zuul:
+  routes:
+    name1:
+      path: /name1/**
+      serviceId: xdd-consumer
+    name3:
+      path: /name3/**
+      serviceId: xdd-producer

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Component
-@FeignClient("xdd-producer")
+@FeignClient(value = "xdd-producer")
 public interface TestRemoteInterface {
     @RequestMapping("test/test")
     String test();

@@ -12,3 +12,6 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
+#feign:
+#  hystrix:
+#    enabled: true
